@@ -11,7 +11,7 @@ chmod +x kubectl
 sudo mv kubectl $INSTALL_DIR/
 kubectl version --client
 
-# Clean up
+
 rm -f kubectl
 
 echo "kubectl installation complete."
