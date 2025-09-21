@@ -26,7 +26,7 @@ FROM base AS final
 # Copy our code from the current folder to the working directory inside the container
 COPY . .
 
-# Make port 80 available for links and/or publish
+
 EXPOSE 80
 
 # Define our command to be run when launching the container
